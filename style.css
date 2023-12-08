@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #5f5c5c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    image-rendering: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+    align-items: center; 
+  }
+  
+  .product img {
+    width: 100%;
+  }
+  /* sotib olish tugmsidagi soya */
+  .buy-button {
+    display: inline-block;
+    background-color: #3b3a3a;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #254c86;
+    transition: all 0.2s ease;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+
+    flex-wrap: wrap;
+    background: #133113;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*   sotib olishdagi animatsiya*/
+  a
+  {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 30px;
+    transition: 0.5s;
+  }
+  a:hover
+  {
+    letter-spacing: 0.25em;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  /* disk rasmlari */
+  .disk-1
+  {
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, );
+    background: black;
+    max-width: 100%;
+  }
+  /* qidirish bolimi */
+  .search
+  {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-image: 
+    url('https://cdn-icons-png.flaticon.com/128/711/711319.png');
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: right center;
+    padding-right: 20px;
+    box-shadow:  1px 1px 3px 1px white;
+  }
+
+
+  main{
+    justify-content: center;
+    text-align: center;
+
+  }
+
+  #vinil{
+    text-align: center;
+  }
+
+  nav{
+    margin-left: 350px;
+  }
+.past
+{
+  color: white;
+  margin: 0.5px;
+  padding: 7px;
+}
